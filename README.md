@@ -13,3 +13,4 @@ Stand by, nothing to see here yet!
 - divide nodetypes and prototypes into three namespaces groups: Content, Document and General, e.g. Flowpack.FusionBP:Content.Text
 - store fusion files in a path that represents the prototype namespace
 - in general use only one prototype per fusion file, same for NodeTypes files
+- try not to modify Fusion objects you don't own (open-closed principle). If absolutely have to override 3rd-party Fusion objects, do it in one place, Override.fusion
