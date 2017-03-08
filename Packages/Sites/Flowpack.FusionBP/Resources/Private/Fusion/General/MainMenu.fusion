@@ -1,0 +1,17 @@
+prototype(Flowpack.FusionBP:General.MainMenu) < prototype(Neos.Fusion:Collection) {
+    @process.tmpl = ${'<ul class="MainMenu">' + value + '</ul>'}
+    collection = ${q(site).children('[instanceof Neos.Neos:Document]').get()}
+    itemName = 'node'
+    itemRenderer = Neos.Fusion:Tag {
+        tagName = 'li'
+        attributes.class = 'MainMenu-item'
+        attributes.class.@process.menuClass = ${value + (node == documentNode && ' isCurrent')}
+        content = Neos.Fusion:Tag {
+            tagName = 'a'
+            attributes.href = NodeUri {
+                node = ${node}
+            }
+            content = ${node.properties.title}
+        }
+    }
+}

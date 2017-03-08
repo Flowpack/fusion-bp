@@ -1,0 +1,7 @@
+{namespace neos=Neos\Neos\ViewHelpers}
+<header class="Header">
+    <a href="{linkToMain}" title="{f:translate(package:'Flowpack.FusionBP', id:'global.tomain')}">
+        <h1><f:translate package="Flowpack.FusionBP" id="global.title"/></h1>
+    </a>
+    <nav>{mainMenu -> f:format.raw()}</nav>
+</header>

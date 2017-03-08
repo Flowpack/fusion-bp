@@ -1,0 +1,11 @@
+Neos:
+  Neos:
+    userInterface:
+      navigateComponent:
+        nodeTree:
+          loadingDepth: 1
+        structureTree:
+          loadingDepth: 0
+    fusion:
+      autoInclude:
+        Flowpack.FusionBP: true

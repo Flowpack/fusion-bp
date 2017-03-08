@@ -1,0 +1,3 @@
+prototype(Flowpack.FusionBP:General.Footer) < prototype(Neos.Fusion:Template) {
+    templatePath = 'resource://Flowpack.FusionBP/Private/Fusion/General/Footer.html'
+}

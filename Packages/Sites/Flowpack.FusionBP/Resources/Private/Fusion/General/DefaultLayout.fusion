@@ -1,0 +1,6 @@
+prototype(Flowpack.FusionBP:General.DefaultLayout) < prototype(Neos.Fusion:Template) {
+    templatePath = 'resource://Flowpack.FusionBP/Private/Fusion/General/DefaultLayout.html'
+    main = ${value}
+    header = Flowpack.FusionBP:General.Header
+    footer = Flowpack.FusionBP:General.Footer
+}

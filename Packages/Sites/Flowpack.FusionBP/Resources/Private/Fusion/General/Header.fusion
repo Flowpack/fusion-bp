@@ -1,0 +1,7 @@
+prototype(Flowpack.FusionBP:General.Header) < prototype(Neos.Fusion:Template) {
+    templatePath = 'resource://Flowpack.FusionBP/Private/Fusion/General/Header.html'
+    mainMenu = Flowpack.FusionBP:General.MainMenu
+    linkToMain = NodeUri {
+        node = ${site}
+    }
+}

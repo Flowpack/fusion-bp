@@ -1,0 +1,22 @@
+prototype(Flowpack.FusionBP:Document.AbstractPage) < prototype(Page) {
+    head {
+        stylesheets.index = Neos.Fusion:Tag {
+            tagName = 'link'
+            attributes {
+                href = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/built/index.css'
+                }
+                type = 'text/css'
+                rel = 'stylesheet'
+            }
+        }
+    }
+    body = Neos.Fusion:Template {
+        javascripts.index = Neos.Fusion:Tag {
+            tagName = 'script'
+            attributes.src = Neos.Fusion:ResourceUri {
+                path = 'resource://Flowpack.FusionBP/Public/built/index.js'
+            }
+        }
+    }
+}

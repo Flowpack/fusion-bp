@@ -1,0 +1,19 @@
+{
+	"name": "flowpack/fusion-bp-distr",
+	"description" : "Fusion best practices example website",
+	"license": "GPL-3.0+",
+	"config": {
+		"vendor-dir": "Packages/Libraries",
+		"bin-dir": "bin"
+	},
+	"require": {
+		"neos/neos": "~3.0.0",
+		"neos/seo": "~2.0"
+	},
+	"scripts": {
+		"post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+		"post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+		"post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+	}
+}

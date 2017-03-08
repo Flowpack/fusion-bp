@@ -1,0 +1,10 @@
+prototype(Flowpack.FusionBP:Document.StandardPage)>
+prototype(Flowpack.FusionBP:Document.StandardPage) < prototype(Flowpack.FusionBP:Document.AbstractPage) {
+    body {
+        @process.layout = Flowpack.FusionBP:General.DefaultLayout
+        templatePath = 'resource://Flowpack.FusionBP/Private/Fusion/Document/StandardPage.html'
+        main = Neos.Neos:ContentCollection {
+            nodePath = 'main'
+        }
+    }
+}

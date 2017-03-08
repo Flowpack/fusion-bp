@@ -1,0 +1,25 @@
+/Build/
+/Configuration/
+/Data/
+/Packages/*
+!/Packages/Sites/
+/Web/_Resources/
+/Web/index.php
+/Web/.htaccess
+/bin/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
+
+/Readme.rst
+/Upgrading.rst
+/composer.lock
+/beard.lock
+
+# Various temporary files
+.fuse_hidden
+.sass-cache
+bower_components
+node_modules
+*.DS_Store

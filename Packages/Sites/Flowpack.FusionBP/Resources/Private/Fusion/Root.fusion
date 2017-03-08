@@ -1,0 +1,11 @@
+include: General/**/*.fusion
+include: Content/**/*.fusion
+include: Document/**/*.fusion
+include: Override.fusion
+
+root {
+    default {
+        type = ${q(node).property('_nodeType')}
+        renderPath >
+    }
+}
