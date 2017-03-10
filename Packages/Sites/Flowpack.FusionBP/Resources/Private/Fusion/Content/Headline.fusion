@@ -1,0 +1,10 @@
+prototype(Flowpack.FusionBP:Content.Headline) < prototype(Neos.Fusion:Tag) {
+    attributes.class = 'Headline'
+    content = Neos.Fusion:Tag {
+        content = ${q(node).property('text')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'text'
+        }
+    }
+    @process.contentElementWrapping = ContentElementWrapping
+}

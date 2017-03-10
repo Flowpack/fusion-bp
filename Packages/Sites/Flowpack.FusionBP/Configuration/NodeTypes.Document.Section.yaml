@@ -1,8 +1,8 @@
-'Flowpack.FusionBP:Document.StandardPage':
+'Flowpack.FusionBP:Document.Section':
   superTypes:
     'Neos.Neos:Document': true
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'
   ui:
-    label: 'Standard Page'
+    label: 'Section'

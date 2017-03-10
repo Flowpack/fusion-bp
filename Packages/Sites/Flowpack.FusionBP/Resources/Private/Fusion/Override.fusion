@@ -1,0 +1,8 @@
+prototype(Neos.Fusion:Template) {
+    packageKeyAndName = ${String.split(this.prototypeName, ':', 2)}
+    namespaceAndRelativeName = ${String.split(this.packageKeyAndName[1], '.', 2)}
+    packageKey = ${this.packageKeyAndName[0]}
+    namespace = ${this.namespaceAndRelativeName[0]}
+    relativeName = ${this.namespaceAndRelativeName[1]}
+    templatePath = ${'resource://' + this.packageKey + '/Private/Fusion/' + this.namespace + '/' + this.relativeName + '.html'}
+}

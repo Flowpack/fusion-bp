@@ -1,0 +1,8 @@
+'Neos.Neos:Content':
+  options:
+    fusion:
+      prototypeGenerator: Flowpack\FusionBP\Generators\DefaultContentPrototypeGenerator
+'Neos.Neos:Document':
+  options:
+    fusion:
+      prototypeGenerator: Flowpack\FusionBP\Generators\DefaultDocumentPrototypeGenerator
