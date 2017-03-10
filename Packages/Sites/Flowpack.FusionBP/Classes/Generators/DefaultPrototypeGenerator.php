@@ -6,25 +6,21 @@ use Neos\ContentRepository\Domain\Model\NodeType;
 use Neos\Neos\Domain\Service\DefaultPrototypeGeneratorInterface;
 
 /**
- * Generate a TypoScript prototype definition based on Neos.Fusion:Template and pass all node properties to it
+ * Generate a Fusion prototype definition based on Neos.Fusion:Template and pass all node properties to it
  *
  * @Flow\Scope("singleton")
  */
 class DefaultPrototypeGenerator implements DefaultPrototypeGeneratorInterface
 {
     /**
-     * The Name of the prototype that is extended
+     * Is Document prototype?
      *
      * @var boolean
      */
     protected $isDocument = false;
 
     /**
-     * Generate a TypoScript prototype definition for a given node type
-     *
-     * A node will be rendered by Neos.Neos:Content by default with a template in
-     * resource://PACKAGE_KEY/Private/Templates/NodeTypes/NAME.html and forwards all public
-     * node properties to the template TypoScript object.
+     * Generate a Fusion prototype definition for a given node type
      *
      * @param NodeType $nodeType
      * @return string
