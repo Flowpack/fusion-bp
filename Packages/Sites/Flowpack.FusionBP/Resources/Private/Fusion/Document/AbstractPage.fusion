@@ -11,7 +11,7 @@ prototype(Flowpack.FusionBP:Document.AbstractPage) < prototype(Page) {
             }
         }
     }
-    body = Neos.Fusion:Template {
+    body = Flowpack.FusionBP:SimpleTemplate {
         javascripts.index = Neos.Fusion:Tag {
             tagName = 'script'
             attributes.src = Neos.Fusion:ResourceUri {

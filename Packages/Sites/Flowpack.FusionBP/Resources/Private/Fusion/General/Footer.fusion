@@ -1,3 +1,2 @@
-prototype(Flowpack.FusionBP:General.Footer) < prototype(Neos.Fusion:Template) {
-    prototypeName = 'Flowpack.FusionBP:General.Footer'
+prototype(Flowpack.FusionBP:General.Footer) < prototype(Flowpack.FusionBP:SimpleTemplate) {
 }

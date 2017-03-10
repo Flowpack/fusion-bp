@@ -1,5 +1,4 @@
-prototype(Flowpack.FusionBP:General.Header) < prototype(Neos.Fusion:Template) {
-    prototypeName = 'Flowpack.FusionBP:General.Header'
+prototype(Flowpack.FusionBP:General.Header) < prototype(Flowpack.FusionBP:SimpleTemplate) {
     sectionMenu = Flowpack.FusionBP:General.SectionMenu
     linkToMain = NodeUri {
         node = ${site}

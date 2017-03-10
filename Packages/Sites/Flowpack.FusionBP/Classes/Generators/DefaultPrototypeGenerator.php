@@ -37,7 +37,7 @@ class DefaultPrototypeGenerator implements DefaultPrototypeGeneratorInterface
         if ($this->isDocument) {
             $output .= 'body {' . chr(10);
         }
-        $output .= "\t" . 'prototypeName = \'' . $nodeType->getName() . '\'' . chr(10);
+        $output .= "\t" . 'overridePrototypeName = \'' . $nodeType->getName() . '\'' . chr(10);
 
         foreach ($nodeType->getProperties() as $propertyName => $propertyConfiguration) {
             if (isset($propertyName[0]) && $propertyName[0] !== '_') {
