@@ -1,4 +1,4 @@
-# Fustion Best Practices Example
+# Fusion Best Practices Example
 
 Stand by, nothing to see here yet!
 
