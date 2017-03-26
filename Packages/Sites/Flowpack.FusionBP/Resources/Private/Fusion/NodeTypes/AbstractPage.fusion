@@ -1,5 +1,6 @@
 prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
     head {
+        headTags = ${'<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'}
         stylesheets {
             fonts = Neos.Fusion:Tag {
                 tagName = 'link'
@@ -55,9 +56,7 @@ prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
         javascripts {
             jquery = Neos.Fusion:Tag {
                 tagName = 'script'
-                attributes.src = Neos.Fusion:ResourceUri {
-                    path = 'resource://Flowpack.FusionBP/Public/js/jquery-1.11.0.min.js'
-                }
+                attributes.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
             }
             wow = Neos.Fusion:Tag {
                 tagName = 'script'
