@@ -4,3 +4,15 @@
     'Flowpack.FusionBP:SectionMixin': true
   ui:
     label: 'Cover'
+    inspector:
+      groups:
+        image:
+          label: Image
+  properties:
+    backgroundImage:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Background image'
+        reloadIfChanged: true
+        inspector:
+          group: image

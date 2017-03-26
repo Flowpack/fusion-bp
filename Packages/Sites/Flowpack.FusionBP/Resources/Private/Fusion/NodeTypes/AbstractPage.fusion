@@ -10,41 +10,11 @@ prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
                     rel = 'stylesheet'
                 }
             }
-            fontawesome = Neos.Fusion:Tag {
+            css = Neos.Fusion:Tag {
                 tagName = 'link'
                 attributes {
                     href = Neos.Fusion:ResourceUri {
-                        path = 'resource://Flowpack.FusionBP/Public/css/font-awesome.min.css'
-                    }
-                    type = 'text/css'
-                    rel = 'stylesheet'
-                }
-            }
-            animate = Neos.Fusion:Tag {
-                tagName = 'link'
-                attributes {
-                    href = Neos.Fusion:ResourceUri {
-                        path = 'resource://Flowpack.FusionBP/Public/css/animate.css'
-                    }
-                    type = 'text/css'
-                    rel = 'stylesheet'
-                }
-            }
-            bootstrap = Neos.Fusion:Tag {
-                tagName = 'link'
-                attributes {
-                    href = Neos.Fusion:ResourceUri {
-                        path = 'resource://Flowpack.FusionBP/Public/css/bootstrap.min.css'
-                    }
-                    type = 'text/css'
-                    rel = 'stylesheet'
-                }
-            }
-            main = Neos.Fusion:Tag {
-                tagName = 'link'
-                attributes {
-                    href = Neos.Fusion:ResourceUri {
-                        path = 'resource://Flowpack.FusionBP/Public/css/main.css'
+                        path = 'resource://Flowpack.FusionBP/Public/built/index.css'
                     }
                     type = 'text/css'
                     rel = 'stylesheet'
@@ -58,22 +28,10 @@ prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
                 tagName = 'script'
                 attributes.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
             }
-            wow = Neos.Fusion:Tag {
+            index = Neos.Fusion:Tag {
                 tagName = 'script'
                 attributes.src = Neos.Fusion:ResourceUri {
-                    path = 'resource://Flowpack.FusionBP/Public/js/wow.min.js'
-                }
-            }
-            bootstrap = Neos.Fusion:Tag {
-                tagName = 'script'
-                attributes.src = Neos.Fusion:ResourceUri {
-                    path = 'resource://Flowpack.FusionBP/Public/js/bootstrap.min.js'
-                }
-            }
-            main = Neos.Fusion:Tag {
-                tagName = 'script'
-                attributes.src = Neos.Fusion:ResourceUri {
-                    path = 'resource://Flowpack.FusionBP/Public/js/main.js'
+                    path = 'resource://Flowpack.FusionBP/Public/built/index.js'
                 }
             }
         }

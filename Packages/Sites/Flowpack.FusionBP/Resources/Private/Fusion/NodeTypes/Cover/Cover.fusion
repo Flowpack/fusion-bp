@@ -15,4 +15,7 @@ prototype(Flowpack.FusionBP:Cover) {
             property = 'subTitle'
         }
     }
+    backgroundImageUri = ImageUri {
+        asset = ${q(node).property('backgroundImage')}
+    }
 }

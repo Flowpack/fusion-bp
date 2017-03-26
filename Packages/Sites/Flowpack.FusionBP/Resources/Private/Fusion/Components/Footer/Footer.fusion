@@ -1,2 +1,3 @@
 prototype(Flowpack.FusionBP:Components.Footer) < prototype(Flowpack.FusionBP:SimpleTemplate) {
+    year = ${Date.year(Date.now())}
 }
