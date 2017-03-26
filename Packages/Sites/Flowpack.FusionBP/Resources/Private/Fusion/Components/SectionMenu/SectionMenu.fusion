@@ -1,0 +1,17 @@
+prototype(Flowpack.FusionBP:Components.SectionMenu) < prototype(Neos.Fusion:Collection) {
+    @process.tmpl = ${'<ul class="SectionMenu">' + value + '</ul>'}
+    collection = ${q(site).children('[instanceof Neos.Neos:Document]').get()}
+    itemName = 'section'
+    itemRenderer = Neos.Fusion:Tag {
+        tagName = 'li'
+        attributes.class = 'SectionMenu-item'
+        attributes.class.@process.menuClass = ${value + (node == documentNode && ' isCurrent')}
+        content = Neos.Fusion:Tag {
+            tagName = 'a'
+            attributes.href = NodeUri {
+                node = ${section}
+            }
+            content = ${section.properties.title}
+        }
+    }
+}

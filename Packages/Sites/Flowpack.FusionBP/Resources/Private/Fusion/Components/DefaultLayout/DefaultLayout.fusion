@@ -1,0 +1,5 @@
+prototype(Flowpack.FusionBP:Components.DefaultLayout) < prototype(Flowpack.FusionBP:SimpleTemplate) {
+    main = ${value}
+    header = Flowpack.FusionBP:Components.Header
+    footer = Flowpack.FusionBP:Components.Footer
+}

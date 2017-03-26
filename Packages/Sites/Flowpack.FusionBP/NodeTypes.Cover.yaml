@@ -1,8 +1,8 @@
-'Flowpack.FusionBP:Document.Section':
+'Flowpack.FusionBP:Cover':
   superTypes:
     'Neos.Neos:Document': true
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'
   ui:
-    label: 'Section'
+    label: 'Cover'

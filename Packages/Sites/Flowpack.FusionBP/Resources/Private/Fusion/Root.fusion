@@ -1,6 +1,5 @@
-include: General/**/*.fusion
-include: Content/**/*.fusion
-include: Document/**/*.fusion
+include: Components/**/*.fusion
+include: NodeTypes/**/*.fusion
 include: Override.fusion
 
 root {

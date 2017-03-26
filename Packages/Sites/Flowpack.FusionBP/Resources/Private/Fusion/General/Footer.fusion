@@ -1,2 +1,0 @@
-prototype(Flowpack.FusionBP:General.Footer) < prototype(Flowpack.FusionBP:SimpleTemplate) {
-}

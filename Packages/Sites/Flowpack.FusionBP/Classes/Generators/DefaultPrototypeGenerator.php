@@ -30,9 +30,14 @@ class DefaultPrototypeGenerator implements DefaultPrototypeGeneratorInterface
         if (strpos($nodeType->getName(), ':') === false) {
             return '';
         }
+        list($packageKey, $relativeName) = explode(':', $nodeType->getName(), 2);
+        $prototypeName = $packageKey . ':NodeTypes' . $relativeName;
+        if ($this->isDocument) {
+            $prototypeName .= '.Document';
+        }
 
         $basePrototypeName = $this->isDocument ? 'Neos.Neos.Document' : 'Neos.Neos.Content';
-        $output = 'prototype(' . $nodeType->getName() . ') < prototype(' . $basePrototypeName . ') {' . chr(10);
+        $output = 'prototype(' . $prototypeName . ') < prototype(' . $basePrototypeName . ') {' . chr(10);
 
         if ($this->isDocument) {
             $output .= 'body {' . chr(10);

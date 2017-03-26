@@ -1,0 +1,5 @@
+'Flowpack.FusionBP:Root':
+  superTypes:
+    'Neos.Neos:Document': true
+  ui:
+    label: 'Root aggregate page'

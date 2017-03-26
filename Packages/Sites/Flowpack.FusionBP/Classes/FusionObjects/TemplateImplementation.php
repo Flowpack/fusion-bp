@@ -40,9 +40,9 @@ class TemplateImplementation extends OriginalTemplateImplementation
         list($packageKey, $relativeName) = explode(':', $prototypeName, 2);
         if (strpos($relativeName, '.') !== false) {
             list($namespace, $namespacedName) = explode('.', $relativeName, 2);
-            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/' . $namespace . '/' . $namespacedName . '.html';
+            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/' . $namespace . '/' . $namespacedName . '/' . $namespacedName . '.html';
         } else {
-            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/' . $relativeName . '.html';
+            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/NodeTypes/' . $relativeName . '/' . $relativeName . '.html';
         }
 
         if ($templatePath === null) {

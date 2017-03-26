@@ -1,9 +1,0 @@
-prototype(Flowpack.FusionBP:Document.Section)>
-prototype(Flowpack.FusionBP:Document.Section) < prototype(Flowpack.FusionBP:Document.AbstractPage) {
-    body {
-        @process.layout = Flowpack.FusionBP:General.DefaultLayout
-        main = Neos.Neos:ContentCollection {
-            nodePath = 'main'
-        }
-    }
-}

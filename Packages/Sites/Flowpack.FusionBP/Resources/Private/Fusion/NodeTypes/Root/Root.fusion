@@ -1,0 +1,8 @@
+prototype(Flowpack.FusionBP:Root) < prototype(Flowpack.FusionBP:AbstractPage) {
+    body = Neos.Fusion:Collection {
+        @process.layout = Flowpack.FusionBP:Components.DefaultLayout
+        collection = ${q(node).children('[instanceof Neos.Neos:Document]').get()}
+        itemName = 'node'
+        itemRenderer = ContentCase
+    }
+}
