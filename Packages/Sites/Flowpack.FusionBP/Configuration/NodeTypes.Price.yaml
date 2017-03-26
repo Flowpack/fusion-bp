@@ -1,0 +1,32 @@
+'Flowpack.FusionBP:Price':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Price'
+    inlineEditable: true
+  properties:
+    title:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Title'
+    info:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Info'
+    amount:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Amount'
+    projects:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Projects'
+    storage:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Storage'

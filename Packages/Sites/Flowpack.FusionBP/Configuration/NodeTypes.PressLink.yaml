@@ -1,0 +1,28 @@
+'Flowpack.FusionBP:PressLink':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Press link'
+    inlineEditable: true
+    inspector:
+      groups:
+        image:
+          label: Image
+  properties:
+    title:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Title'
+    source:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Source'
+    logo:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: Logo
+        reloadIfChanged: true
+        inspector:
+          group: image

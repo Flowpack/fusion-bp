@@ -1,8 +1,8 @@
 'Flowpack.FusionBP:Press':
   superTypes:
     'Neos.Neos:Document': true
-  childNodes:
-    main:
-      type: 'Neos.Neos:ContentCollection'
   ui:
     label: 'Press'
+  childNodes:
+    pressLinks:
+      type: 'Neos.Neos:ContentCollection'

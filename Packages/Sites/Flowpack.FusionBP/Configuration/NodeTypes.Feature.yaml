@@ -1,0 +1,38 @@
+'Flowpack.FusionBP:Feature':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Feature'
+    inlineEditable: true
+    inspector:
+      groups:
+        color:
+          ui:
+            label: 'Color'
+  properties:
+    title:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Title'
+    subTitle:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Subtitle'
+    color:
+      type: string
+      ui:
+        label: 'Line color'
+        inspector:
+          group: color
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            placeholder: 'Choose the color'
+            values:
+              blue:
+                label: 'blue'
+              yellow:
+                label: 'yellow'
+              purple:
+                label: 'purple'

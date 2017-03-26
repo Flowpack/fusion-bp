@@ -1,8 +1,9 @@
 'Flowpack.FusionBP:Pricing':
   superTypes:
     'Neos.Neos:Document': true
+    'Flowpack.FusionBP:SectionMixin': true
   childNodes:
-    main:
+    pricing:
       type: 'Neos.Neos:ContentCollection'
   ui:
     label: 'Pricing'

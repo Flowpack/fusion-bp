@@ -1,0 +1,18 @@
+prototype(Flowpack.FusionBP:Cover.Document) < prototype(Flowpack.FusionBP:AbstractPage)
+prototype(Flowpack.FusionBP:Cover) {
+    sectionMenu = Flowpack.FusionBP:Components.SectionMenu
+    title = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('title')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'title'
+        }
+    }
+    subTitle = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('subTitle')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'subTitle'
+        }
+    }
+}

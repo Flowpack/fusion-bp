@@ -1,6 +1,0 @@
-prototype(Flowpack.FusionBP:Components.Header) < prototype(Flowpack.FusionBP:SimpleTemplate) {
-    sectionMenu = Flowpack.FusionBP:Components.SectionMenu
-    linkToMain = NodeUri {
-        node = ${site}
-    }
-}

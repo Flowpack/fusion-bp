@@ -1,0 +1,25 @@
+'Flowpack.FusionBP:SectionMixin':
+  abstract: true
+  ui:
+    label: 'Pricing'
+    inspector:
+      groups:
+        section:
+          label: 'Section'
+  properties:
+    navTitle:
+      type: string
+      ui:
+        label: 'Navigation title (for menu)'
+        inspector:
+          group: section
+    title:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Title'
+    subTitle:
+      type: string
+      ui:
+        aloha:
+          placeholder: 'Subtitle'

@@ -1,5 +1,7 @@
 prototype(Flowpack.FusionBP:SimpleTemplate) {
     @class = 'Flowpack\\FusionBP\\FusionObjects\\TemplateImplementation'
 }
-prototype(Neos.Neos:Document) < prototype(Flowpack.FusionBP:SimpleTemplate)
+prototype(Neos.Neos:Document) < prototype(Flowpack.FusionBP:SimpleTemplate) {
+    @process.contentElementWrapping = ContentElementWrapping
+}
 prototype(Neos.Neos:Content) < prototype(Flowpack.FusionBP:SimpleTemplate)

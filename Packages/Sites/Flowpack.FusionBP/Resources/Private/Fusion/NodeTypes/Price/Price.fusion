@@ -1,0 +1,37 @@
+prototype(Flowpack.FusionBP:Price) {
+    title = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('title')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'title'
+        }
+    }
+    info = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('info')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'info'
+        }
+    }
+    amount = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('amount')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'amount'
+        }
+    }
+    projects = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('projects')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'projects'
+        }
+    }
+    storage = Neos.Fusion:Tag {
+        tagName = 'span'
+        content = ${q(node).property('storage')}
+        @process.contentElementEditable = ContentElementEditable {
+            property = 'storage'
+        }
+    }
+}
