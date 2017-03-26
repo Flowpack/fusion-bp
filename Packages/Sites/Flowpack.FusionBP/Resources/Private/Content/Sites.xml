@@ -3,40 +3,18 @@
  <site name="Site" state="1" siteResourcesPackageKey="Flowpack.FusionBP" siteNodeName="site">
   <nodes formatVersion="2.0">
    <node identifier="e9bc7d53-ca3b-464f-afc5-44acbea69ada" nodeName="site">
-    <variant sortingIndex="100" workspace="live" nodeType="Flowpack.FusionBP:Document.MainPage" version="3" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="Flowpack.FusionBP:Root" version="4" removed="" hidden="" hiddenInIndex="">
      <dimensions/>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2017-02-23T07:59:01+00:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2017-03-08T23:19:06+00:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-08T23:19:06+00:00</lastPublicationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:13:27+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:13:27+00:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
       <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
-    <node identifier="9f200f29-7fb0-453e-a466-1602376886d7" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions/>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-02-23T07:59:01+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-08T23:19:06+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-08T23:19:06+00:00</lastPublicationDateTime>
-      <properties/>
-     </variant>
-     <node identifier="f8785627-4e9c-4d0a-9c10-bf3d02f8b752" nodeName="node-58c0665d30937">
-      <variant sortingIndex="100" workspace="live" nodeType="Flowpack.FusionBP:Content.Text" version="7" removed="" hidden="" hiddenInIndex="">
-       <dimensions/>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-03-08T23:15:25+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-08T23:21:23+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-08T23:21:23+00:00</lastPublicationDateTime>
-       <properties>
-        <text __type="string">Hello, Fusion world! I'm a text node.</text>
-       </properties>
-      </variant>
-     </node>
-    </node>
     <node identifier="a0590b29-f99a-46f1-9666-ae3d0191ce81" nodeName="node-58c066d61bba0">
      <variant sortingIndex="200" workspace="live" nodeType="Flowpack.FusionBP:Document.StandardPage" version="2" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
@@ -85,40 +63,124 @@
       </variant>
      </node>
     </node>
-    <node identifier="971811e3-9b6b-4920-817a-05574aaecbaa" nodeName="node-58c1c8b4792ed">
-     <variant sortingIndex="350" workspace="live" nodeType="Flowpack.FusionBP:Document.Section" version="2" removed="" hidden="" hiddenInIndex="">
+    <node identifier="1a8f0416-1656-4490-af60-c1b41234d425" nodeName="node-58d75c1e28408">
+     <variant sortingIndex="350" workspace="live" nodeType="Flowpack.FusionBP:Cover" version="2" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2017-03-10T00:27:16+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:13:50+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">context</uriPathSegment>
+       <uriPathSegment __type="string">cover</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Context</title>
+       <title __type="string">Cover</title>
       </properties>
      </variant>
-     <node identifier="df91dbc5-020d-e8d6-1e56-d8f043bd3f6f" nodeName="main">
+     <node identifier="6e44078c-feb1-fb5a-f871-71dbd793e380" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2017-03-10T00:27:16+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:13:50+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="f77b9adc-d061-4e4f-8e22-9ee35f61a056" nodeName="node-58c1c9ad04d13">
-       <variant sortingIndex="100" workspace="live" nodeType="Flowpack.FusionBP:Content.Headline" version="5" removed="" hidden="" hiddenInIndex="">
-        <dimensions/>
-        <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2017-03-10T00:31:25+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-10T00:32:12+00:00</lastPublicationDateTime>
-        <properties>
-         <text __type="string">SubSection</text>
-        </properties>
-       </variant>
-      </node>
+     </node>
+    </node>
+    <node identifier="af7d0bf1-9b7d-4cc3-a058-50e77945eced" nodeName="node-58d75c5f6f540">
+     <variant sortingIndex="400" workspace="live" nodeType="Flowpack.FusionBP:Features" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:14:55+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">features</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Features</title>
+      </properties>
+     </variant>
+     <node identifier="c5ce9710-3524-ed9a-347b-840b006805f9" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:14:55+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="e375f2c4-c89a-4b22-b67b-b7e24c93bbba" nodeName="node-58d75c675ac0a">
+     <variant sortingIndex="450" workspace="live" nodeType="Flowpack.FusionBP:Pricing" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:03+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">pricing</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Pricing</title>
+      </properties>
+     </variant>
+     <node identifier="c6c142f7-6454-f0cc-96bb-f644864ff267" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:03+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="b65a8af7-b45d-4ae3-bd9f-f35b7265e5b7" nodeName="node-58d75c6d96e3b">
+     <variant sortingIndex="500" workspace="live" nodeType="Flowpack.FusionBP:Invite" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:09+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">invite</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Invite</title>
+      </properties>
+     </variant>
+     <node identifier="8e814b5f-ab6c-8aaf-30e3-ac0916773e73" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:09+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="da549776-c04e-41a7-92ad-3552baf44806" nodeName="node-58d75c731ee85">
+     <variant sortingIndex="550" workspace="live" nodeType="Flowpack.FusionBP:Press" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:15+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">press</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Press</title>
+      </properties>
+     </variant>
+     <node identifier="65ae991f-460b-a3f0-a5e7-d248169be738" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:15+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-03-26T09:15:24+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
      </node>
     </node>
    </node>

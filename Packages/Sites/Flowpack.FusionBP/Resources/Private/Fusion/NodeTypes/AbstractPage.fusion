@@ -1,21 +1,81 @@
 prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
     head {
-        stylesheets.index = Neos.Fusion:Tag {
-            tagName = 'link'
-            attributes {
-                href = Neos.Fusion:ResourceUri {
-                    path = 'resource://Flowpack.FusionBP/Public/built/index.css'
+        stylesheets {
+            fonts = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = 'http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700'
+                    type = 'text/css'
+                    rel = 'stylesheet'
                 }
-                type = 'text/css'
-                rel = 'stylesheet'
+            }
+            fontawesome = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://Flowpack.FusionBP/Public/css/font-awesome.min.css'
+                    }
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
+            }
+            animate = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://Flowpack.FusionBP/Public/css/animate.css'
+                    }
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
+            }
+            bootstrap = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://Flowpack.FusionBP/Public/css/bootstrap.min.css'
+                    }
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
+            }
+            main = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://Flowpack.FusionBP/Public/css/main.css'
+                    }
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
             }
         }
     }
-    body = Flowpack.FusionBP:SimpleTemplate {
-        javascripts.index = Neos.Fusion:Tag {
-            tagName = 'script'
-            attributes.src = Neos.Fusion:ResourceUri {
-                path = 'resource://Flowpack.FusionBP/Public/built/index.js'
+    body {
+        javascripts {
+            jquery = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/js/jquery-1.11.0.min.js'
+                }
+            }
+            wow = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/js/wow.min.js'
+                }
+            }
+            bootstrap = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/js/bootstrap.min.js'
+                }
+            }
+            main = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/js/main.js'
+                }
             }
         }
     }
