@@ -42,7 +42,7 @@ class TemplateImplementation extends OriginalTemplateImplementation
             list($namespace, $namespacedName) = explode('.', $relativeName, 2);
             $templatePath = 'resource://' . $packageKey . '/Private/Fusion/' . $namespace . '/' . $namespacedName . '/' . $namespacedName . '.html';
         } else {
-            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/NodeTypes/' . $relativeName . '/' . $relativeName . '.html';
+            $templatePath = 'resource://' . $packageKey . '/Private/Fusion/' . $relativeName . '/' . $relativeName . '.html';
         }
 
         if ($templatePath === null) {

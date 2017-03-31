@@ -1,0 +1,39 @@
+prototype(Flowpack.FusionBP:AbstractPage) < prototype(Page) {
+    head {
+        headTags = ${'<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">'}
+        stylesheets {
+            fonts = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = 'http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700'
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
+            }
+            css = Neos.Fusion:Tag {
+                tagName = 'link'
+                attributes {
+                    href = Neos.Fusion:ResourceUri {
+                        path = 'resource://Flowpack.FusionBP/Public/built/index.css'
+                    }
+                    type = 'text/css'
+                    rel = 'stylesheet'
+                }
+            }
+        }
+    }
+    body {
+        javascripts {
+            jquery = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'
+            }
+            index = Neos.Fusion:Tag {
+                tagName = 'script'
+                attributes.src = Neos.Fusion:ResourceUri {
+                    path = 'resource://Flowpack.FusionBP/Public/built/index.js'
+                }
+            }
+        }
+    }
+}

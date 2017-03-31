@@ -1,0 +1,5 @@
+# This should have been extracted into a dedicate package (or merged into the core)
+# so for now we put it into here, so we don't feel so ashamed :-)
+prototype(Flowpack.FusionBP:SimpleTemplate) {
+    @class = 'Flowpack\\FusionBP\\FusionObjects\\TemplateImplementation'
+}

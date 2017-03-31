@@ -1,0 +1,110 @@
+/*---------------Pricing Tables-------------------*/
+
+
+#pricing {
+  background: #70cbce;
+}
+
+.pricing-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pricing-table {
+  background: transparent;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.pricing-table.active {
+  box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
+  position: absolute;
+  margin: auto;
+  z-index: 200;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pricing-table:hover {
+  margin-top: -10px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.pricing-table li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headline {
+  background: #231f20;
+  color: #FFFFFF;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.price {
+    background: none repeat scroll 0 0 #231f20;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.pricing-table:hover li.price  {
+  background: #303236;
+  -webkit-transition: all 0.85s ease-in-out;
+  -moz-transition: all 0.85s ease-in-out;
+  -o-transition: all 0.85s ease-in-out;
+  transition: all 0.85s ease-in-out;
+}
+
+.price small {
+  font-weight: 300;
+  color: #929496;
+}
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #929496;
+  background: #ffffff;
+}
+
+.features {
+  color: #231f20;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #E8EAEA;
+  background: #ffffff
+}
+
+.features.first {
+  border-top: 1px dotted #E8EAEA;
+}
+
+.features.last {
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+
+.features.last a {
+	color: #70cbce;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.pricing-container .btn {
+    border-radius: 0;
+}

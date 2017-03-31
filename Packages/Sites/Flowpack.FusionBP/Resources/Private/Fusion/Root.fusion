@@ -1,5 +1,4 @@
-include: Components/**/*.fusion
-include: NodeTypes/**/*.fusion
+include: **/*.fusion
 include: Override.fusion
 
 root {
