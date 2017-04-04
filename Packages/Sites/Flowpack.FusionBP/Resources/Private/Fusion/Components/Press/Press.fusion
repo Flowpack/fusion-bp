@@ -1,6 +1,0 @@
-prototype(Flowpack.FusionBP:Press.Document) < prototype(Flowpack.FusionBP:AbstractPage)
-prototype(Flowpack.FusionBP:Press) {
-    pressLinks = ContentCollection {
-        nodePath = 'pressLinks'
-    }
-}
