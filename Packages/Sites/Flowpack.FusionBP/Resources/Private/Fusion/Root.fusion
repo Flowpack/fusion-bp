@@ -3,7 +3,8 @@ include: Override.fusion
 
 root {
     default {
-        type = ${q(node).property('_nodeType') + '.Document'}
+        // Override the default root matcher to render document nodes with a prototype of the same name + ".Document" suffix
+        type = ${node.nodeType.name + '.Document'}
         renderPath >
     }
 }
