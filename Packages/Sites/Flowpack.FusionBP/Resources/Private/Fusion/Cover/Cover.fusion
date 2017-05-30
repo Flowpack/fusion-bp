@@ -17,5 +17,8 @@ prototype(Flowpack.FusionBP:Cover) {
     }
     backgroundImageUri = ImageUri {
         asset = ${q(node).property('backgroundImage')}
+    }    
+    linkToHome = NodeUri {
+      node = ${site}
     }
 }
